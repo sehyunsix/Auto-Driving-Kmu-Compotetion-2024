@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="msg_send" type="teacher_ta.py" name="teacher"/>
+	<node pkg="msg_send" type="ta.py" name="TA"/>
+	<node pkg="msg_send" type="student_ta.py" name="student" output="screen"/>
+</launch>

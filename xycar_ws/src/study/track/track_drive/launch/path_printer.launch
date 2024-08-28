@@ -1,0 +1,6 @@
+<launch> 
+ 
+  <node name="driver" pkg="track_drive" type="path_printer.py" output="screen" />
+   <include file="$(find xycar_motor)/launch/xycar_motor.launch" />
+
+</launch>
