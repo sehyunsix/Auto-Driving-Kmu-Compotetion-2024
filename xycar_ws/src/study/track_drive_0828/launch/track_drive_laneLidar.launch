@@ -1,0 +1,20 @@
+<launch> 
+
+  <!-- motor node -->
+  <!-- <include file="$(find xycar_motor)/launch/xycar_motor.launch" /> -->
+  
+  <!-- Lidar node -->
+  <!-- <include file="$(find xycar_lidar)/launch/xycar_lidar.launch" /> -->
+
+  <!-- USB Camera node -->
+  <!-- <include file="$(find usb_cam)/launch/xycar_cam.launch" /> -->
+ 
+  <!-- imu node    -->
+  <!-- <include file="$(find xycar_imu)/launch/xycar_imu.launch"/> -->
+
+
+  <!-- My Driver node -->
+  <node name="driver" pkg="track_drive" type="track_drive_laneLidar.py" output="screen"/>
+
+ 
+</launch>

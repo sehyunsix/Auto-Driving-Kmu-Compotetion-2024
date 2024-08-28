@@ -1,0 +1,15 @@
+<launch> 
+ 
+ 
+  <!-- USB Camera node -->
+  <!-- <include file="$(find usb_cam)/launch/xycar_cam.launch" /> -->
+
+  <!-- motor node -->
+  <!-- <include file="$(find xycar_motor)/launch/xycar_motor.launch" /> -->
+  
+  
+  <!-- My Driver node -->
+  <node name="driver" pkg="track_drive" type="track_drive_lane.py" output="screen" />
+  
+
+</launch>

@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/xytron/xycar_ws/devel/include/**",
+        "/home/xytron/xycar_ws/src/ar_track_alvar/ar_track_alvar/include/**",
+        "/home/xytron/xycar_ws/src/camera_test/include/**",
+        "/home/xytron/xycar_ws/src/study/ex_urdf/include/**",
+        "/home/xytron/xycar_ws/src/filter_test/include/**",
+        "/home/xytron/xycar_ws/src/ros_usb_cam/include/**",
+        "/home/xytron/xycar_ws/src/roscpp_test/include/**",
+        "/home/xytron/xycar_ws/src/xycar_device/usb_cam/include/**",
+        "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_ackermann/include/**",
+        "/home/xytron/xycar_ws/src/xycar_device/vesc/vesc_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
